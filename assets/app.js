@@ -10,16 +10,16 @@
 import './styles/app.scss';
 //import "../vendors/bootstrap/scss/bootstrap.scss";
 // start the Stimulus application
-import 'bootstrap';
 import './bootstrap';
 
-import 'jquery';
+import 'jquery/dist/jquery.min';
+import '@popperjs/core/dist/umd/popper-base.min';
+import 'bootstrap';
 import './js/portfolio.js';
 
+import '@fortawesome/fontawesome-free/css/all.min.css'
 
-import '@popperjs/core';
-
-import '@fortawesome/fontawesome-free/js/fontawesome'
-import '@fortawesome/fontawesome-free/js/solid'
-import '@fortawesome/fontawesome-free/js/regular'
-import '@fortawesome/fontawesome-free/js/brands'
+// import '@fortawesome/fontawesome-free/js/fontawesome'
+// import '@fortawesome/fontawesome-free/js/solid'
+// import '@fortawesome/fontawesome-free/js/regular'
+// import '@fortawesome/fontawesome-free/js/brands'
