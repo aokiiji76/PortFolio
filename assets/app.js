@@ -11,6 +11,7 @@ import './js/portfolio.js';
 
 //js bootstrap
 import 'bootstrap';
+
 //font
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
