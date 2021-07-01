@@ -7498,7 +7498,9 @@ aside .widget {
 
 .btn-img {
   height: 10px;
-  margin-right: 6px; }
+  margin-right: 6px;
+
+}
 
 .btn-menu-toggle {
   padding: 12.5px 12.5px;
@@ -7519,6 +7521,7 @@ aside .widget {
 
 .btn-download-cv {
   padding: 6px 30px; }
+
 
 .btn-hire-me {
   font-size: 8px;
