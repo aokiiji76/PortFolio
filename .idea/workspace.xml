@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d7fc772-9413-47ef-8296-7591a1bfd3ef" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/portfolio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/portfolio.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/styles/css/portfolio.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/css/portfolio.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/styles/partial/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/partial/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/styles/partial/_layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/partial/_layout.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/_partials/_header.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/_partials/_header.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -223,7 +218,7 @@
       <workItem from="1624968497858" duration="17375000" />
       <workItem from="1625048315688" duration="13543000" />
       <workItem from="1625144666629" duration="11034000" />
-      <workItem from="1625231915549" duration="8252000" />
+      <workItem from="1625231915549" duration="9454000" />
     </task>
     <servers />
   </component>

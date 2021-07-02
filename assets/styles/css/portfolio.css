@@ -7656,7 +7656,7 @@ main {
     line-height: 1;
     color: #0067f6; }
   main p {
-    font-size: 13px;
+    font-size: 16px;
     line-height: 1.538;
     font-weight: 300; }
   main .intro-section {
@@ -7701,24 +7701,24 @@ main {
         padding-bottom: 0; }
       main .time-line-item .badge {
         padding: 6px 10px;
-        font-size: 8px;
+        font-size: 12px;
         font-weight: 500;
         line-height: 1;
         border-radius: 2px;
         margin-bottom: 8px; }
       main .time-line-item-title {
-        font-size: 12px;
+        font-size: 25px;
         font-weight: 700;
         line-height: 1;
         margin-bottom: 2px; }
       main .time-line-item-subtitle {
-        font-size: 10px;
+        font-size: 20px;
         font-weight: 500;
         line-height: 1.6;
         color: #a7a7a7;
         margin-bottom: 3px; }
       main .time-line-item-content {
-        font-size: 10px;
+        font-size: 16px;
         font-weight: 300;
         line-height: 1.6;
         margin-bottom: 0; }
