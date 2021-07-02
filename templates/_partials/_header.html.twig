@@ -1,20 +1,34 @@
 <header>
-    <button class="btn btn-white btn-share ml-auto mr-3 ml-md-0 mr-md-auto"><img src="{{ asset('build/images/share.a5b9f1c7.svg') }}" alt="share" class="btn-img">
-        SHARE</button>
-    
     {% set routeName = app.request.attributes.get('_route') %}
+    
+    <!-- Share button LinkedIn - Blogger Config.
+      Ref.: https://goo.gl/tC65tg -->
+    
+    <button class="btn btn-white btn-share ml-auto mr-3 ml-md-0 mr-md-auto">
+       
+        <script data-counter="none"
+                
+                data-url="https://symfony.com/doc/current/index.html"
+{#                data-url="http://localhost:8000/"#}
+{#                data-url="{{ routeName }}"#}
+                type="IN/Share" >
+        </script>
+
+    </button>
+    
+    
+    
+{#    <button class="btn btn-white btn-share ml-auto mr-3 ml-md-0 mr-md-auto"><img src="{{ asset('build/images/share.a5b9f1c7.svg') }}" alt="share" class="btn-img">#}
+{#        Partager#}
+{#    </button>#}
+    
+   
     <nav class="collapsible-nav" id="collapsible-nav">
 
-        <a href="/" class="nav-link active">Accueil</a>
-        <a href="{{ path('portfolio') }}" class="nav-link active">PORTFOLIO</a>
-        <a href="{{ path('contact') }}" class="nav-link active">CONTACT</a>
         
-{#        <a href="{{ path('home') }}"  {% if routeName == 'home'%} class="nav-link active" {% endif %} >Accueil</a>#}
-{#        <a href="{{ path('portfolio') }}" {% if routeName != 'home'%} class="nav-link active" {% endif %}>PORTFOLIO</a>#}
-{#        #}
-{#        <a href="{{ path('contact') }}" {% if routeName != 'home' %} class="nav-link active"{%endif%}>CONTACT</a>#}
-{#       #}
-        
+        <a href="{{ path('home') }}"  {% if routeName == 'home' %} class="nav-link active"  {% endif %} >Accueil</a>
+        <a href="{{ path('portfolio') }}" {% if routeName == 'portfolio'%} class="nav-link active" {% endif %}>PORTFOLIO</a>
+        <a href="{{ path('contact') }}" {% if routeName == 'contact' %} class="nav-link active"{%endif%}>CONTACT</a>
         
     </nav>
     <button class="btn btn-menu-toggle btn-white rounded-circle" data-toggle="collapsible-nav"

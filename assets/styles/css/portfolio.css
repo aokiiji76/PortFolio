@@ -134,6 +134,7 @@ sup {
   top: -.5em; }
 
 a {
+  margin: 7px;
   color: #0067f6;
   text-decoration: none;
   background-color: transparent; }
@@ -7481,7 +7482,7 @@ aside .widget {
       color: #0067f6; }
 
 .btn-share {
-  padding: 5px 25px;
+  padding: 5px 10px;
   border: 0;
   border-radius: 15px;
   font-size: 0.75rem;
@@ -7536,7 +7537,9 @@ header {
   padding-bottom: 16px;
   background-color: #f3f3f3;
   z-index: 1000; }
-
+.a{
+  margin: 10px;
+}
 .collapsible-nav {
   display: flex;
   align-items: center;
@@ -7581,7 +7584,10 @@ header {
     .collapsible-nav .nav-link.active {
       color: #0067f6;
       border-bottom: 2px solid #0067f6;
-      padding-bottom: 0; }
+      padding-bottom: 0;
+       }
+
+
 
 body {
   padding: 20px 60px; }
@@ -7620,7 +7626,8 @@ header {
 
 aside {
   padding-right: 57px;
-  min-width: 240px; }
+  min-width: 300px;
+  max-width: 360px}
   @media (max-width: 767px) {
     aside {
       width: 100%;
