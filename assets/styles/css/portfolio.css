@@ -7897,7 +7897,9 @@ main {
       main .portfolio-wrapper .portfolio-item-details {
         padding: 22px 26px;
         background-color: rgba(0, 0, 0, 0.42);
-        color: #ffffff; }
+        /*color: #f0f;*/
+        color: #ffffff;
+      }
       main .portfolio-wrapper .portfolio-item-title {
         font-size: 10px;
         font-weight: 700;
