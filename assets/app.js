@@ -6,6 +6,7 @@ import 'bootstrap/scss/bootstrap.scss';
 import './styles/css/portfolio.css';
 
 //js
+import './js/entry';
 import './js/portfolio.js';
 
 
@@ -25,7 +26,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 
 //import "@bootstrap/scss";
 //import 'jquery/dist/jquery.min';
-//import '@popperjs/core/dist/umd/popper-base.min';
+import '@popperjs/core/dist/umd/popper-base.min';
 //import 'bootstrap';
 
 

@@ -3,12 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="5d7fc772-9413-47ef-8296-7591a1bfd3ef" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/styles/css/portfolio.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/css/portfolio.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/_partials/_aside.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/_partials/_aside.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/_partials/_header.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/_partials/_header.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/portfolio.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/portfolio.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/portfolio/portfolio.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/portfolio/portfolio.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,7 +223,8 @@
       <workItem from="1625231915549" duration="9560000" />
       <workItem from="1625486589813" duration="227000" />
       <workItem from="1625487928029" duration="4339000" />
-      <workItem from="1625493508557" duration="3707000" />
+      <workItem from="1625493508557" duration="3772000" />
+      <workItem from="1625497951265" duration="3793000" />
     </task>
     <servers />
   </component>

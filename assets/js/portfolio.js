@@ -34,29 +34,30 @@ function setHoverBoxPerspective() {
 }
 
 
-// var classNames = ['in-up', 'in-right', 'in-down', 'in-left', 'out-up', 'out-right', 'out-down', 'out-left']; // Animation classes.
-//
-// $('.hover-box').hover(
-//     function (event) {
-//         let direction = "up";
-//         if(jQuery.fn.entry){ //Check if entry js file is loaded.
-//             direction = $(this).entry({ e: event }); // Get mouse in direction.
-//         }
-//
-//         $(this).removeClass(classNames.join(" ")); // Remove existing animation classes.
-//         $(this).addClass("in-" + direction); //Add mouse in animation
-//
-//     },
-//
-//     function (event) {
-//
-//         let direction = "up";
-//         if(jQuery.fn.entry){
-//             direction = $(this).entry({ e: event }); // Get mouse out direction.
-//         }
-//
-//         $(this).removeClass(classNames.join(" "));
-//         $(this).addClass("out-" + direction); //Add mouse out animation
-//
-//     }
-// );
+
+var classNames = ['in-up', 'in-right', 'in-down', 'in-left', 'out-up', 'out-right', 'out-down', 'out-left']; // Animation classes.
+
+$('.hover-box').hover(
+    function (event) {
+        let direction = "up";
+         if(jQuery.fn.entry){ //Check if entry js file is loaded.
+            direction = $(this).entry({ e: event }); // Get mouse in direction.
+         }
+
+        $(this).removeClass(classNames.join(" ")); // Remove existing animation classes.
+        $(this).addClass("in-" + direction); //Add mouse in animation
+
+    },
+
+    function (event) {
+
+        let direction = "up";
+         if(jQuery.fn.entry){
+            direction = $(this).entry({ e: event }); // Get mouse out direction.
+         }
+
+        $(this).removeClass(classNames.join(" "));
+        $(this).addClass("out-" + direction); //Add mouse out animation
+
+    }
+);
