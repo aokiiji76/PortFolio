@@ -11,9 +11,8 @@ use Symfony\Component\Routing\Annotation\Route;
 
 class HomeController extends AbstractController
 {
-    /**
-     * @Route("/", name="home")
-     */
+
+    #[Route('/', name: 'home')]
     public function home(): Response
     {
         return $this->render('home/home.html.twig', [
@@ -21,9 +20,8 @@ class HomeController extends AbstractController
         ]);
     }
 
-    /**
-     * @Route("/download", name="download_file")
-     **/
+
+    #[Route("/download",name:"download_file")]
     public function downloadFileAction(): BinaryFileResponse
     {
         $file = '../assets/pdf/cv.pdf';
