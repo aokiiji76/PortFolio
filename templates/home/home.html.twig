@@ -4,20 +4,69 @@
 {% block body %}
 
 <main>
-    
+   
     <section class="intro-section">
         <h2 class="section-title">Bonjour, Julien Lhermenier !</h2>
         <p>Après une carrière dans le commerce qui m'a appris la rigueur, l'organisation et l'autonomie,
             j'ai décidé de me lancé un nouveau challenge qui réunis mes compétences, et ma passion pour l'univers du web.Après une carrière dans le commerce qui m'a appris la rigueur, l'organisation et l'autonomie,
             j'ai décidé de me lancé un nouveau challenge qui réunis mes compétences, et ma passion pour l'univers du webAprès une carrière dans le commerce qui m'a appris la rigueur, l'organisation et l'autonomie,
-           
-           </p>
-        <a href="#!" class="btn btn-primary btn-hire-me">HIRE ME</a>
+        
+        </p>
+        <a href="{{ path('contact') }}" class="btn btn-primary btn-hire-me">Contactez-moi</a>
     </section>
+    <section class="services-section">
+        <h2 class="section-title">Compétences</h2>
+        <div class="row">
+            <div class="media service-card col-lg-6">
+                <div class="service-icon">
+                    <img src="{{ asset('build/images/logo/symfony.f460db51.svg') }}" alt="symfony">
+                </div>
+                <div class="media-body">
+                    <h5 class="service-title">Symfony</h5>
+                    <p class="service-description">Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed
+                        tortor.</p>
+                </div>
+            </div>
+            <div class="media service-card col-lg-6">
+                <div class="service-icon">
+                    <img src="{{ asset('build/images/utils/003-idea.c5795154.svg') }}" alt="bulb">
+                </div>
+                <div class="media-body">
+                    <h5 class="service-title">Graphic design</h5>
+                    <p class="service-description">Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed
+                        tortor.
+                    </p>
+                </div>
+            </div>
+            <div class="media service-card col-lg-6">
+                <div class="service-icon">
+                    <img src="{{ asset('build/images/utils/002-development.5934730d.svg') }}" alt="development">
+                </div>
+                <div class="media-body">
+                    <h5 class="service-title">Development</h5>
+                    <p class="service-description">Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed
+                        tortor.
+                    </p>
+                </div>
+            </div>
+            <div class="media service-card col-lg-6">
+                <div class="service-icon">
+                    <img src="{{ asset('build/images/utils/004-smartphone.8345f204.svg') }}" alt="smartphone">
+                </div>
+                <div class="media-body">
+                    <h5 class="service-title">Mobile design</h5>
+                    <p class="service-description">Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed
+                        tortor.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
     <section class="resume-section">
         <div class="row">
             <div class="col-lg-6">
-                <h6 class="section-subtitle">RESUME</h6>
+{#                <h6 class="section-subtitle">RESUME</h6>#}
                 <h2 class="section-title">FORMATION</h2>
                 <ul class="time-line">
                     <li class="time-line-item">
@@ -29,12 +78,18 @@
                             Aliquam asperiores atque est ipsa, nemo non voluptatibus! Aperiam dignissimos dolores doloribus velit?
                             Eligendi, facere, odit. Asperiores ducimus enim modi neque nisi!
                         </p>
+                        <p class="time-line-item-content">POO et MVC</p>
+                        <p class="time-line-item-content"> Composer</p>
+                        <p class="time-line-item-content"> Twig</p>
+                        <p class="time-line-item-content"> Doctrine</p>
                     </li>
                     <li class="time-line-item">
                         <span class="badge badge-primary">2020 - 2021</span>
                         <h6 class="time-line-item-title">Ecole O'Clock</h6>
                         <p class="time-line-item-subtitle">Formation Developpeur Web/Web mobile</p>
                         <p class="time-line-item-content">Parcours socle Php, Javascript, Wordpress</p>
+                        <p class="time-line-item-content">1 projet en équipe sur un mois :
+                            seedOseed, site d'echange de graines entre passionnés et amateurs - Travail d'équipe en méthode Agile (React/js et Symfony)</p>
                     </li>
                     <li class="time-line-item">
                         <span class="badge badge-primary">2007 - 2009</span>
@@ -45,7 +100,7 @@
                 </ul>
             </div>
             <div class="col-lg-6">
-                <h6 class="section-subtitle">RESUME</h6>
+{#                <h6 class="section-subtitle">RESUME</h6>#}
                 <h2 class="section-title">Experience</h2>
                 <ul class="time-line">
                     <li class="time-line-item">
@@ -76,55 +131,7 @@
             </div>
         </div>
     </section>
-    <section class="services-section">
-        <h6 class="section-subtitle">WHAT I DO</h6>
-        <h2 class="section-title">SERVICES</h2>
-        <div class="row">
-            <div class="media service-card col-lg-6">
-                <div class="service-icon">
-                    <img src="{{ asset('build/images/001-target.4730cad6.svg') }}" alt="target">
-                </div>
-                <div class="media-body">
-                    <h5 class="service-title">web designing</h5>
-                    <p class="service-description">Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed
-                        tortor.</p>
-                </div>
-            </div>
-            <div class="media service-card col-lg-6">
-                <div class="service-icon">
-                    <img src="{{ asset('build/images/003-idea.c5795154.svg') }}" alt="bulb">
-                </div>
-                <div class="media-body">
-                    <h5 class="service-title">Graphic design</h5>
-                    <p class="service-description">Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed
-                        tortor.
-                    </p>
-                </div>
-            </div>
-            <div class="media service-card col-lg-6">
-                <div class="service-icon">
-                    <img src="{{ asset('build/images/002-development.5934730d.svg') }}" alt="development">
-                </div>
-                <div class="media-body">
-                    <h5 class="service-title">Development</h5>
-                    <p class="service-description">Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed
-                        tortor.
-                    </p>
-                </div>
-            </div>
-            <div class="media service-card col-lg-6">
-                <div class="service-icon">
-                    <img src="{{ asset('build/images/004-smartphone.8345f204.svg') }}" alt="smartphone">
-                </div>
-                <div class="media-body">
-                    <h5 class="service-title">Mobile design</h5>
-                    <p class="service-description">Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed
-                        tortor.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
+   
 {#    <section class="testimonial-section">#}
 {#        <div id="testimonialCarousel" class="testimonial-carousel carousel slide" data-ride="carousel">#}
 {#            <div class="carousel-inner">#}
