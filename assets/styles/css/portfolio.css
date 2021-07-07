@@ -3475,7 +3475,8 @@ input[type="button"].btn-block {
 .card-body {
   flex: 1 1 auto;
   min-height: 1px;
-  padding: 1.25rem; }
+  padding: 1.25rem;
+  }
 
 .card-title {
   margin-bottom: 0.75rem; }
@@ -7423,7 +7424,8 @@ a.text-white:hover, a.text-white:focus {
     border-color: #dee2e6; } }
 
 aside .profile-img-wrapper {
-  text-align: center; }
+  text-align: center;
+margin-bottom: 20px}
   aside .profile-img-wrapper img {
     width: 60px;
     height: 60px;
@@ -7528,7 +7530,8 @@ aside .widget {
   font-size: 1rem;
   font-weight: 500;
   line-height: 1;
-  padding: 8px 12px; }
+  padding: 8px 12px;
+  }
 
 header {
   display: flex;
@@ -7658,7 +7661,9 @@ main {
   main p {
     font-size: 16px;
     line-height: 1.538;
-    font-weight: 300; }
+    font-weight: 300;
+    margin-bottom: 0;
+  }
   main .intro-section {
     margin-bottom: 29px; }
     main .intro-section .section-title {
@@ -7722,22 +7727,22 @@ main {
         font-weight: 300;
         line-height: 1.6;
         margin-bottom: 0; }
-  main .services-section {
+  main .competences-section {
     margin-bottom: 34px; }
-  main .service-card {
+  main .competence-card {
     padding-top: 11px;
     padding-bottom: 11px; }
-    main .service-card:first-child, main .service-card:nth-child(3) {
+    main .competence-card:first-child, main .competence-card:nth-child(3) {
       border-right: 1px solid #f3f3f3; }
       @media (max-width: 991px) {
-        main .service-card:first-child, main .service-card:nth-child(3) {
+        main .competence-card:first-child, main .competence-card:nth-child(3) {
           border-right: 0; } }
     @media (max-width: 991px) {
-      main .service-card {
+      main .competence-card {
         border-bottom: 1px solid #f3f3f3; }
-        main .service-card:last-child {
+        main .competence-card:last-child {
           border-bottom: 0; } }
-    main .service-card .service-icon {
+    main .competence-card .competence-icon {
       width: 29.9px;
       height: 29.9px;
       margin-right: 17.1px;
@@ -7745,13 +7750,13 @@ main {
       height: 100%;
       align-items: center;
       justify-content: center; }
-    main .service-card .service-title {
-      font-size: 12px;
+    main .competence-card .competence-title {
+      font-size: 20px;
       font-weight: bold;
       line-height: 1;
       margin-bottom: 8px; }
-    main .service-card .service-description {
-      font-size: 10px;
+    main .competence-card .competence-description {
+      font-size: 16px;
       font-weight: 300;
       max-width: 180px;
       margin-bottom: 0; }

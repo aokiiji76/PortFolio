@@ -40,6 +40,40 @@ main {
         .section-title {
             margin-bottom: 1rem;
         }
+        //widget aside start
+        .widget {
+
+            margin-bottom: 28px;
+            .widget-title {
+                font-size: 20px;
+                font-weight: $font-weight-medium;
+                text-transform: uppercase;
+                margin-bottom: 10px;
+            }
+            .widget-content {
+                font-size: 16px;
+                p{
+                    margin-bottom: 5px;
+
+                    &:last-of-type {
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+
+            &.card {
+                border: 0;
+                border-radius: 10px;
+                box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.08);
+                background-color: #d6d6d6;
+            ;
+
+                .widget-title {
+                    color: $primary;
+                }
+            }
+        }
+        //widget aside end
     }
 
     .resume-section {
