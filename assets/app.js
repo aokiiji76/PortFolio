@@ -1,6 +1,6 @@
 
 //scss
-import './styles/app.scss';
+//import './styles/app.scss';
 import 'bootstrap/scss/bootstrap.scss';
 //css
 import './styles/css/portfolio.css';
