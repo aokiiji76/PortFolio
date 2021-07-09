@@ -1,9 +1,10 @@
 
 //scss
 //import './styles/app.scss';
-import 'bootstrap/scss/bootstrap.scss';
+//import 'bootstrap/scss/bootstrap.scss';
 //css
 import './styles/css/portfolio.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 //js
 import './js/entry';
