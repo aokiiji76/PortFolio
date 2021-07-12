@@ -144,9 +144,9 @@ aside .profile-img-wrapper {
   text-align: center;
   margin-bottom: 20px}
 aside .profile-img-wrapper img {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%; }
+  width: 100px;
+  height: 100px;
+  border-radius: 10%; }
 
 aside .profile-name {
   font-size: 30px;
@@ -308,6 +308,7 @@ header {
   color: #0067f6;
   border-bottom: 2px solid #0067f6;
   padding-bottom: 0;
+  font-size: 16px;
 }
 
 /*general body*/
@@ -620,26 +621,13 @@ main .contact-card-content {
 
 
 /*footer*/
-main footer {
+aside footer {
   font-size: 10px;
   font-weight: 500;
   line-height: 1.2;
   padding-top: 5px;
   padding-bottom: 5px;
   text-align: center; }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*media*/
 @media (min-width: 576px) {
