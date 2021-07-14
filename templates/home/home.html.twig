@@ -4,31 +4,29 @@
 {% block body %}
 
 <main>
-   
+    <!-- Accueil intro -->
     <section class="intro-section">
         <h2 class="section-title">Développeur web Back-End</h2>
-    
         <div class="widget card">
             <div class="card-body">
                 <div class="widget-content">
                     <h5 class="widget-title card-title">Objectifs :</h5>
-                    <p>Après une carrière dans le commerce qui m'a appris la rigueur, l'organisation et l'autonomie,
-                        j'ai décidé de me lancé un nouveau challenge qui réunis mes compétences, et ma passion pour l'univers du web.Après une carrière dans le commerce qui m'a appris la rigueur, l'organisation et l'autonomie,
-                        j'ai décidé de me lancé un nouveau challenge qui réunis mes compétences, et ma passion pour l'univers du webAprès une carrière dans le commerce qui m'a appris la rigueur, l'organisation et l'autonomie,
+                    <p>
+                        Après une carrière dans le commerce qui m'a appris la rigueur, l'organisation et l'autonomie,
+                        j'ai décidé de me lancer un nouveau challenge qui réunit mes compétences et ma passion pour l'univers du web.
                     </p>
-                    
                 </div>
             </div>
         </div>
-       
         <a href="{{ path('contact') }}" class="btn btn-primary btn-hire-me">Contactez-moi</a>
     </section>
+    <!-- Competences -->
     <section class="competences-section">
         <h2 class="section-title">Compétences</h2>
         <div class="row">
             <div class="media competence-card col-lg-6">
                 <div class="competence-icon">
-                    <img src="{{ asset('build/images/logo/icons8-environment-24.f44e1a48.png') }}" alt="symfony">
+                    <img src="{{ asset('build/images/logo/icons8-environment-24.f44e1a48.png') }}" alt="environment">
                 </div>
                 <div class="media-body">
                     <h5 class="competence-title">Developpement</h5>
@@ -42,7 +40,7 @@
             </div>
             <div class="media competence-card col-lg-6">
                 <div class="competence-icon">
-                    <img src="{{ asset('build/images/logo/icons8-monitor-24.34bdbadf.png') }}" alt="bulb">
+                    <img src="{{ asset('build/images/logo/icons8-monitor-24.34bdbadf.png') }}" alt="monitor">
                 </div>
                 <div class="media-body">
                     <h5 class="competence-title">Environnement</h5>
@@ -53,7 +51,7 @@
             </div>
             <div class="media competence-card col-lg-6">
                 <div class="competence-icon">
-                    <img src="{{ asset('build/images/logo/icons8-mind-map-24.76ae57ba.png') }}" alt="development">
+                    <img src="{{ asset('build/images/logo/icons8-mind-map-24.76ae57ba.png') }}" alt="mindmap">
                 </div>
                 <div class="media-body">
                     <h5 class="competence-title">Frameworks</h5>
@@ -63,7 +61,7 @@
             </div>
             <div class="media competence-card col-lg-6">
                 <div class="competence-icon">
-                    <img src="{{ asset('build/images/logo/icons8-development-skill-24.471c92b7.png') }}" alt="smartphone">
+                    <img src="{{ asset('build/images/logo/icons8-development-skill-24.471c92b7.png') }}" alt="skill">
                 </div>
                 <div class="media-body">
                     <h5 class="competence-title">Methodes</h5>
@@ -73,26 +71,21 @@
             </div>
         </div>
     </section>
-    
+    <!-- resume cv -->
     <section class="resume-section">
         <div class="row">
+            <!-- Formation -->
             <div class="col-lg-6">
-
                 <h2 class="section-title">FORMATION</h2>
                 <ul class="time-line">
                     <li class="time-line-item">
                         <span class="badge badge-primary">2020 - 2021</span>
                         <h6 class="time-line-item-title">Ecole O'Clock</h6>
                         <p class="time-line-item-subtitle">Spécialisation Symfony</p>
-                        
                         <p class="time-line-item-content">Routing, bundles, Doctrine, Twig</p>
                         <p class="time-line-item-content">Formulaires : création, traitement et validation</p>
                         <p class="time-line-item-content">Sécurité, gestion des accès</p>
-                       
                         <p class="time-line-item-content">Déploiement sur AWS</p>
-                       
-                        
-                        
                     </li>
                     <li class="time-line-item">
                         <span class="badge badge-primary">2020 - 2021</span>
@@ -100,8 +93,10 @@
                         <p class="time-line-item-subtitle">Formation Developpeur Web/Web mobile <br> Niveau V</p>
                         <p class="time-line-item-content">Parcours socle Php, Javascript, Wordpress</p>
                         <p class="time-line-item-content">Programmation orientée objet et architecture MVC</p>
-                        <p class="time-line-item-content">1 projet en équipe sur un mois :
-                            seedOseed, site d'echange de graines entre passionnés et amateurs - Travail d'équipe en méthode Agile (React/js et Symfony)</p>
+                        <p class="time-line-item-content">
+                            1 projet en équipe sur un mois : seedOseed, site d'echange de graines entre passionnés et amateurs - Travail d'équipe en méthode Agile
+                            (React/js et Symfony)
+                        </p>
                     </li>
                     <li class="time-line-item">
                         <span class="badge badge-primary">2007 - 2009</span>
@@ -111,8 +106,8 @@
                     </li>
                 </ul>
             </div>
+            <!-- Experience -->
             <div class="col-lg-6">
-
                 <h2 class="section-title">Experience</h2>
                 <ul class="time-line">
                     <li class="time-line-item">

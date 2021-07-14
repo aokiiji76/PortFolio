@@ -2,79 +2,74 @@
 {% block title %}{{ parent() }} | PortFolio {% endblock %}
 
 {% block body %}
-
+    <!-- Portfolio -->
 <main>
     <section class="portfolio-section">
         <h2 class="section-title">PORTFOLIO</h2>
-        
         <div class="portfolio-wrapper">
+            <!-- Projet 1  -->
             <figure class="portfolio-item hover-box">
                 <a href="https://github.com/aokiiji76/seedOseed" target="_blank">
-                    <img src="{{ asset('build/images/projets/SeedoSeed.1da8a4b8.png') }}"  alt="project" class="portfolio-item-img" >
+                    <img src="{{ asset('build/images/projets/SeedoSeed.1da8a4b8.png') }}"  alt="seedoseed" class="portfolio-item-img" >
                 </a>
                 <figcaption class="portfolio-item-details overlay">
                     <h5 class="portfolio-item-title">SeedOSeed</h5>
-                    <p class="portfolio-item-description">Api Rest (Front/Back)</p>
+                    <p class="portfolio-item-description">Api Rest <br> (React/Symfony)</p>
                 </figcaption>
             </figure>
+            <!-- Projet 2  -->
             <figure class="portfolio-item hover-box">
                 <a href="https://github.com/aokiiji76/SpotNews" target="_blank">
-                    <img src="{{ asset('build/images/projets/spotNews.90da56ad.png') }}" alt="project" class="portfolio-item-img">
+                    <img src="{{ asset('build/images/projets/spotNews.90da56ad.png') }}" alt="SpotNews" class="portfolio-item-img">
                 </a>
                 <figcaption class="portfolio-item-details overlay">
                     <h5 class="portfolio-item-title">SpotNews</h5>
-                    <p class="portfolio-item-description">Site d'actualité ( Api )</p>
+                    <p class="portfolio-item-description">Site d'actualité en direct depuis plusieurs sources <br> ( Apiweb )</p>
                 </figcaption>
             </figure>
+            <!-- Projet 3  -->
             <figure class="portfolio-item hover-box">
                 <a href="https://github.com/aokiiji76/random_product" target="_blank">
-                <img src="{{ asset('build/images/projets/RandomProduct.44699c0a.png') }}" alt="project" class="portfolio-item-img">
+                <img src="{{ asset('build/images/projets/RandomProduct.44699c0a.png') }}" alt="randomproduct" class="portfolio-item-img">
                 </a>
                 <figcaption class="portfolio-item-details overlay">
                     <h5 class="portfolio-item-title">RandomProduct</h5>
-                    <p class="portfolio-item-description">Page produit aléatoire (fakerfixture)</p>
+                    <p class="portfolio-item-description">Page produit aléatoire <br> (fakerfixture)</p>
                 </figcaption>
             </figure>
+            <!-- Projet 4  -->
             <figure class="portfolio-item hover-box">
                 <a href="https://github.com/aokiiji76/covidV1" target="_blank">
-                <img src="{{ asset('build/images/projets/CovidStats.9515fbe9.png') }}" alt="project" class="portfolio-item-img">
+                <img src="{{ asset('build/images/projets/CovidStats.9515fbe9.png') }}" alt="covidstats" class="portfolio-item-img">
                 </a>
                 <figcaption class="portfolio-item-details overlay">
                     <h5 class="portfolio-item-title">CovidStats</h5>
-                    <p class="portfolio-item-description">Site sur les données du covid ( Api )</p>
+                    <p class="portfolio-item-description">Site sur les données de la covid-19 <br>( Api.gouv  )</p>
                 </figcaption>
             </figure>
+            <!-- Projet 5  -->
+            <figure class="portfolio-item hover-box">
+                <a href="https://github.com/aokiiji76/PortFolio" target="_blank">
+                    <img src="{{ asset('build/images/projets/portfolio.21a99ebb.png') }}" alt="portfolio" class="portfolio-item-img">
+                </a>
+                <figcaption class="portfolio-item-details overlay">
+                    <h5 class="portfolio-item-title">Portfolio</h5>
+                    <p class="portfolio-item-description">Cv-Portfolio-Contact</p>
+                </figcaption>
+            </figure>
+            <!-- projet 6 -->
 {#            <figure class="portfolio-item hover-box">#}
-{#                <img src="assets/images/img_5.png" alt="project" class="portfolio-item-img">#}
+{#                <a href="https://github.com/aokiiji76/covidV1" target="_blank">#}
+{#                    <img src="{{ asset('build/images/projets/CovidStats.9515fbe9.png') }}" alt="covidstats" class="portfolio-item-img">#}
+{#                </a>#}
 {#                <figcaption class="portfolio-item-details overlay">#}
-{#                    <h5 class="portfolio-item-title">PROJECT 05</h5>#}
-{#                    <p class="portfolio-item-description">Branding, Photography</p>#}
+{#                    <h5 class="portfolio-item-title">CovidStats</h5>#}
+{#                    <p class="portfolio-item-description">Site sur les données de la covid-19 <br>( Api.gouv  )</p>#}
 {#                </figcaption>#}
 {#            </figure>#}
-{#            <figure class="portfolio-item hover-box">#}
-{#                <img src="assets/images/img_6.png" alt="project" class="portfolio-item-img">#}
-{#                <figcaption class="portfolio-item-details overlay">#}
-{#                    <h5 class="portfolio-item-title">PROJECT 06</h5>#}
-{#                    <p class="portfolio-item-description">Branding, Photography</p>#}
-{#                </figcaption>#}
-{#            </figure>#}
-{#            <figure class="portfolio-item hover-box">#}
-{#                <img src="assets/images/img_7.png" alt="project" class="portfolio-item-img">#}
-{#                <figcaption class="portfolio-item-details overlay">#}
-{#                    <h5 class="portfolio-item-title">PROJECT 07</h5>#}
-{#                    <p class="portfolio-item-description">Branding, Photography</p>#}
-{#                </figcaption>#}
-{#            </figure>#}
-{#            <figure class="portfolio-item hover-box">#}
-{#                <img src="assets/images/img_8.png" alt="project" class="portfolio-item-img">#}
-{#                <figcaption class="portfolio-item-details overlay">#}
-{#                    <h5 class="portfolio-item-title">PROJECT 08</h5>#}
-{#                    <p class="portfolio-item-description">Branding, Photography</p>#}
-{#                </figcaption>#}
-{#            </figure>#}
-        </div>
-    
-    </section>
 
+
+        </div>
+    </section>
 </main>
 {% endblock %}

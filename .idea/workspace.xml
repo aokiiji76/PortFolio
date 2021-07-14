@@ -3,9 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="5d7fc772-9413-47ef-8296-7591a1bfd3ef" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/app.scss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/styles/css/portfolio.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/css/portfolio.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/custom.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/partial/_aside.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/partial/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/partial/_header.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/partial/_layout.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/partial/_main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/_partials/_aside.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/_partials/_aside.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/_partials/_footer.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/_partials/_footer.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/_partials/_header.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/_partials/_header.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/contact/contact.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/contact/contact.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/home/home.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/home.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/portfolio/portfolio.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/portfolio/portfolio.html.twig" afterDir="false" />
@@ -177,18 +188,18 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../bin/php/php8.0.8/php.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images/projets" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wamp\www\PortFolio\assets\images\projets" />
       <recent name="D:\wamp\www\PortFolio\assets\pdf" />
       <recent name="D:\wamp\www\PortFolio\assets\images\utils" />
       <recent name="D:\wamp\www\PortFolio\assets\styles" />
       <recent name="D:\wamp\www\PortFolio\assets\js" />
-      <recent name="D:\wamp\www\PortFolio\assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\wamp\www\PortFolio\templates\portfolio" />
@@ -232,7 +243,10 @@
       <workItem from="1625658437457" duration="10963000" />
       <workItem from="1625748965183" duration="13438000" />
       <workItem from="1625836244918" duration="15389000" />
-      <workItem from="1626098259895" duration="6552000" />
+      <workItem from="1626098259895" duration="7403000" />
+      <workItem from="1626111672245" duration="510000" />
+      <workItem from="1626182163657" duration="1260000" />
+      <workItem from="1626265468954" duration="4854000" />
     </task>
     <servers />
   </component>

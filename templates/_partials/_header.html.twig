@@ -3,33 +3,26 @@
     
     <!-- Share button LinkedIn - Blogger Config.
       Ref.: https://goo.gl/tC65tg -->
-    
+    <!-- btn linkedIn -->
     <button class="btn btn-white btn-share ml-auto mr-3 ml-md-0 mr-md-auto">
-       
         <script data-counter="none"
-                
                 data-url="https://symfony.com/doc/current/index.html"
 {#                data-url="http://localhost:8000/"#}
-{#                data-url="{{ routeName }}"#}
+
                 type="IN/Share" >
         </script>
-
     </button>
     
-    
-    
+    <!-- btn share -->
 {#    <button class="btn btn-white btn-share ml-auto mr-3 ml-md-0 mr-md-auto"><img src="{{ asset('build/images/share.a5b9f1c7.svg') }}" alt="share" class="btn-img">#}
 {#        Partager#}
 {#    </button>#}
     
-   
+    <!-- nav bar -->
     <nav class="collapsible-nav" id="collapsible-nav">
-
-        
         <a href="{{ path('home') }}"  {% if routeName == 'home' %} class="nav-link active"  {% endif %} >Accueil</a>
         <a href="{{ path('portfolio') }}" {% if routeName == 'portfolio'%} class="nav-link active" {% endif %}>PORTFOLIO</a>
         <a href="{{ path('contact') }}" {% if routeName == 'contact' %} class="nav-link active"{%endif%}>CONTACT</a>
-        
     </nav>
     <button class="btn btn-menu-toggle btn-white rounded-circle" data-toggle="collapsible-nav"
             data-target="collapsible-nav"><img src="{{ asset('build/images/utils/hamburger.bf9c727c.svg') }}" alt="hamburger"></button>
