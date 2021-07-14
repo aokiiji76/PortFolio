@@ -9,7 +9,7 @@
 * Création du HomeController / ContactController / PortfolioController
 * Création de home.html.twig / portfolio.html.twig / contact.html.twig 
 * Refactorisation template
-* Dossier _partials / -aside.html.twig / _header.html.twig/ _footer.html.twig
+* Dossier _partials / _aside.html.twig / _header.html.twig/ _footer.html.twig
 
 
 ## FRONT OFFICE
@@ -24,6 +24,7 @@
 * npm i --save-dev bootstrap @fortawesome/fontawesome-free jquery popper.js node-sass sass-loader
 * npm run watch pour compiler webpack
 * configuration webpack.config.js
-* configuration assets/app.js + app.scss/custom.scss + portfolio.css
-* configuration de webpack.config.js copyfile pour build les images depuis assets/images et .enableSassLoader() pour utilisation de sass
+* création de portfolio.css + js/entry et js/portfolio.js
+* configuration assets/app.js 
+* configuration de webpack.config.js copyfile pour build les images depuis assets/images
 

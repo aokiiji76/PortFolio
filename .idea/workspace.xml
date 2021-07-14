@@ -3,23 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5d7fc772-9413-47ef-8296-7591a1bfd3ef" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/styles/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/styles/app.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/styles/css/portfolio.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/css/portfolio.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/styles/custom.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/styles/partial/_aside.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/styles/partial/_buttons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/styles/partial/_header.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/styles/partial/_layout.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/styles/partial/_main.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/_partials/_aside.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/_partials/_aside.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/_partials/_header.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/_partials/_header.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/contact/contact.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/contact/contact.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home/home.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/home.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/portfolio/portfolio.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/portfolio/portfolio.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +174,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images/projets" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -246,7 +230,9 @@
       <workItem from="1626098259895" duration="7403000" />
       <workItem from="1626111672245" duration="510000" />
       <workItem from="1626182163657" duration="1260000" />
-      <workItem from="1626265468954" duration="4854000" />
+      <workItem from="1626265468954" duration="5070000" />
+      <workItem from="1626271682568" duration="77000" />
+      <workItem from="1626271787664" duration="881000" />
     </task>
     <servers />
   </component>
