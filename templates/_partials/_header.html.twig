@@ -21,8 +21,8 @@
     <!-- nav bar -->
     <nav class="collapsible-nav" id="collapsible-nav">
         <a href="{{ path('home') }}"  {% if routeName == 'home' %} class="nav-link active"  {% endif %} >Accueil</a>
-        <a href="{{ path('portfolio') }}" {% if routeName == 'portfolio'%} class="nav-link active" {% endif %}>PORTFOLIO</a>
-        <a href="{{ path('contact') }}" {% if routeName == 'contact' %} class="nav-link active"{%endif%}>CONTACT</a>
+        <a href="{{ path('project') }}" {% if routeName == 'project'%} class="nav-link active" {% endif %}>Projets</a>
+        <a href="{{ path('contact') }}" {% if routeName == 'contact' %} class="nav-link active"{%endif%}>Contact</a>
     </nav>
     <button class="btn btn-menu-toggle btn-white rounded-circle" data-toggle="collapsible-nav"
             data-target="collapsible-nav"><img src="{{ asset('build/images/utils/hamburger.bf9c727c.svg') }}" alt="hamburger"></button>

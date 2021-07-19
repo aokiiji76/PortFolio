@@ -24,9 +24,9 @@ class HomeController extends AbstractController
     #[Route("/download",name:"download_file")]
     public function downloadFileAction(): BinaryFileResponse
     {
-        $file = '../assets/pdf/cv.pdf';
+        $file = '../assets/pdf/cv-lhermenier-julien.pdf';
         $response = new BinaryFileResponse($file);
-        $response->setContentDisposition(ResponseHeaderBag::DISPOSITION_ATTACHMENT,'cv.pdf');
+        $response->setContentDisposition(ResponseHeaderBag::DISPOSITION_ATTACHMENT,'cv-lhermenier-julien.pdf');
         return $response;
     }
 

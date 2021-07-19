@@ -6,14 +6,14 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
-class PortfolioController extends AbstractController
+class ProjectController extends AbstractController
 {
     /**
-     * @Route("/portfolio", name="portfolio")
+     * @Route("/projet", name="project")
      */
     public function index(): Response
     {
-        return $this->render('portfolio/portfolio.html.twig', [
+        return $this->render('project/project.html.twig', [
 
         ]);
     }

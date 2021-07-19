@@ -199,7 +199,9 @@ aside .widget.card {
   box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.08); }
 aside .widget.card .widget-title {
   color: #0067f6; }
-
+aside .widget-content img {
+  width: 50%;
+}
 
 /*general btn*/
 .btn-share {
