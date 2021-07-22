@@ -3,14 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5d7fc772-9413-47ef-8296-7591a1bfd3ef" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/pdf/cv.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/styles/css/portfolio.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/css/portfolio.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/PortfolioController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ProjectController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/_partials/_aside.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/_partials/_aside.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/_partials/_header.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/_partials/_header.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/home/home.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/home.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/portfolio/portfolio.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/project/project.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,17 +173,17 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images/logo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images/utils" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wamp\www\PortFolio\assets\images\utils" />
       <recent name="D:\wamp\www\PortFolio\assets\images\logo" />
       <recent name="D:\wamp\www\PortFolio\assets\pdf" />
       <recent name="D:\wamp\www\PortFolio\assets\images\projets" />
-      <recent name="D:\wamp\www\PortFolio\assets\images\utils" />
       <recent name="D:\wamp\www\PortFolio\assets\styles" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -240,7 +234,8 @@
       <workItem from="1626265468954" duration="5070000" />
       <workItem from="1626271682568" duration="77000" />
       <workItem from="1626271787664" duration="975000" />
-      <workItem from="1626686850024" duration="4035000" />
+      <workItem from="1626686850024" duration="5247000" />
+      <workItem from="1626960071652" duration="6828000" />
     </task>
     <servers />
   </component>
