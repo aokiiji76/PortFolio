@@ -8,9 +8,8 @@ use Symfony\Component\Routing\Annotation\Route;
 
 class ProjectController extends AbstractController
 {
-    /**
-     * @Route("/projet", name="project")
-     */
+
+    #[Route('/projet', name: 'project')]
     public function index(): Response
     {
         return $this->render('project/project.html.twig', [
