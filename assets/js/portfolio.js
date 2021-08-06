@@ -1,13 +1,22 @@
-const $ = require('jquery');
+ const $ = require('jquery');
 
-$('[data-toggle="collapsible-nav"]').on('click', function(e){
-    let target = ($(this).data('target'));
-    $('#' + target).toggleClass('show');
-});
+ // $(document). ready(function(){ alert("Ready!"); });
+
+// $('[data-toggle="collapsible-nav"]').on('click', function(e){
+//     let target = ($(this).data('target'));
+//     $('#' + target).toggleClass('show');
+// });
+
+ $(document).on('click', '[data-toggle="collapsible-nav"]', function(e) {
+     let target = ($(this).data('target'));
+     $('#' + target).toggleClass('show');
+ });
 
 $(document).ready(function(){
     if(window.innerWidth >= 992) {
-        $('#collapsible-nav').addClass('show');  //Show navigation menu in bigger screens by default.
+        $('#collapsible-nav').addClass('show');
+
+        //Show navigation menu in bigger screens by default.
     } else {
         $('#collapsible-nav').removeClass('show');
     }
@@ -34,8 +43,10 @@ function setHoverBoxPerspective() {
 }
 
 
+ let classNames = ['in-up', 'in-right', 'in-down', 'in-left', 'out-up', 'out-right', 'out-down', 'out-left']; // Animation classes.
+//console.log(jquery.fn.entry);
+ //console.log();
 
-var classNames = ['in-up', 'in-right', 'in-down', 'in-left', 'out-up', 'out-right', 'out-down', 'out-left']; // Animation classes.
 
 $('.hover-box').hover(
     function (event) {

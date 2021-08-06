@@ -2,6 +2,24 @@
 <html lang="fr">
     <head>
         <meta charset="UTF-8">
+        <!-- Primary Meta Tags -->
+        <title>Lhermenier-Julien | Accueil</title>
+        <meta name="title" content="Lhermenier-Julien | Accueil">
+        <meta name="description" content="Lhermenier julien Portfolio">
+    
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://www.lhermenierjulien-dev.com/">
+        <meta property="og:title" content="Lhermenier-Julien | Accueil">
+        <meta property="og:description" content="Lhermenier julien Portfolio">
+        <meta property="og:image" content="https://www.lhermenierjulien-dev.com/build/images/projets/portfolio.21a99ebb.png">
+    
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="https://www.lhermenierjulien-dev.com/">
+        <meta property="twitter:title" content="Lhermenier-Julien | Accueil">
+        <meta property="twitter:description" content="Lhermenier julien Portfolio">
+        <meta property="twitter:image" content="">
         <title>{% block title %}Lhermenier-Julien{% endblock %}</title>
 {#        favicon#}
         <link rel="icon" type="image/png" href="{{ asset('build/images/utils/favicon-porfolio2.eb722b51.ico') }}">
@@ -15,6 +33,8 @@
 
         {% block javascripts %}
             {{ encore_entry_script_tags('app') }}
+{#            {{ encore_entry_script_tags('entry') }}#}
+{#            {{ encore_entry_script_tags('portfolio') }}#}
         {% endblock %}
     </head>
     <body>

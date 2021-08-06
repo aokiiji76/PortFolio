@@ -3,6 +3,7 @@ import './styles/css/portfolio.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 //js
+//import $ from 'jquery';
 import './js/entry';
 import './js/portfolio.js';
 
