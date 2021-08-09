@@ -48,27 +48,57 @@ function setHoverBoxPerspective() {
  //console.log();
 
 
-$('.hover-box').hover(
-    function (event) {
-        let direction = "up";
-         if(jQuery.fn.entry){ //Check if entry js file is loaded.
-            direction = $(this).entry({ e: event }); // Get mouse in direction.
-         }
+ $(document).ready(
+     function () {
+         let direction ="up";
+         $('.hover-box').on("mouseover",function(){
+              //direction = $(this).entry({ e: event });
+             $(this).removeClass(classNames.join(" ")); // Remove existing animation classes.
+             $(this).addClass("in-" + direction); //Add mouse in animation
+         })
+     },
+     function () {
+         let direction ="down";
+         $('.hover-box').on("mouseout",function(){
+            //  direction = $(this).entry({ e: event });
+             $(this).removeClass(classNames.join(" ")); // Remove existing animation classes.
+             $(this).addClass("out-" + direction); //Add mouse in animation
+         })
 
-        $(this).removeClass(classNames.join(" ")); // Remove existing animation classes.
-        $(this).addClass("in-" + direction); //Add mouse in animation
+     }
+ );
 
-    },
 
-    function (event) {
 
-        let direction = "up";
-         if(jQuery.fn.entry){
-            direction = $(this).entry({ e: event }); // Get mouse out direction.
-         }
 
-        $(this).removeClass(classNames.join(" "));
-        $(this).addClass("out-" + direction); //Add mouse out animation
 
-    }
-);
+
+
+
+
+
+
+// $('.hover-box').hover(
+//     function (event) {
+//         let direction = "up";
+//          if(jQuery.fn.entry){ //Check if entry js file is loaded.
+//             direction = $(this).entry({ e: event }); // Get mouse in direction.
+//          }
+//
+//         $(this).removeClass(classNames.join(" ")); // Remove existing animation classes.
+//         $(this).addClass("in-" + direction); //Add mouse in animation
+//
+//     },
+//
+//     function (event) {
+//
+//         let direction = "up";
+//          if(jQuery.fn.entry){
+//             direction = $(this).entry({ e: event }); // Get mouse out direction.
+//          }
+//
+//         $(this).removeClass(classNames.join(" "));
+//         $(this).addClass("out-" + direction); //Add mouse out animation
+//
+//     }
+// );
