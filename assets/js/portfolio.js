@@ -1,11 +1,7 @@
  const $ = require('jquery');
 
- // $(document). ready(function(){ alert("Ready!"); });
+// $(document). ready(function(){ alert("Ready!"); });
 
-// $('[data-toggle="collapsible-nav"]').on('click', function(e){
-//     let target = ($(this).data('target'));
-//     $('#' + target).toggleClass('show');
-// });
 
  $(document).on('click', '[data-toggle="collapsible-nav"]', function(e) {
      let target = ($(this).data('target'));
@@ -42,41 +38,55 @@ function setHoverBoxPerspective() {
     });
 }
 
+//projet hover-box
 
  let classNames = ['in-up', 'in-right', 'in-down', 'in-left', 'out-up', 'out-right', 'out-down', 'out-left']; // Animation classes.
-//console.log(jquery.fn.entry);
- //console.log();
 
-
- $(document).ready(
-     function () {
-         let direction ="up";
-         $('.hover-box').on("mouseover",function(){
-              //direction = $(this).entry({ e: event });
+ $(document).ready(function() {
+     // check if the mouse is hovered the element
+     $('.hover-box').hover(
+         function() {
+             let direction ="left";
              $(this).removeClass(classNames.join(" ")); // Remove existing animation classes.
              $(this).addClass("in-" + direction); //Add mouse in animation
-         })
-     },
-     function () {
-         let direction ="down";
-         $('.hover-box').on("mouseout",function(){
-            //  direction = $(this).entry({ e: event });
+         },
+         function() {
+             let direction ="right";
              $(this).removeClass(classNames.join(" ")); // Remove existing animation classes.
              $(this).addClass("out-" + direction); //Add mouse in animation
-         })
-
-     }
- );
-
+         }
+     ).data('hover', false);
+ });
 
 
 
 
+ // $('[data-toggle="collapsible-nav"]').on('click', function(e){
+ //     let target = ($(this).data('target'));
+ //     $('#' + target).toggleClass('show');
+ // });
 
 
 
-
-
+ // $(document).hover(
+ //     function () {
+ //         let direction ="up";
+ //         $('.hover-box').on("mouseover",function(){
+ //              //direction = $(this).entry({ e: event });
+ //             $(this).removeClass(classNames.join(" ")); // Remove existing animation classes.
+ //             $(this).addClass("in-" + direction); //Add mouse in animation
+ //         })
+ //     },
+ //     function () {
+ //         let direction ="down";
+ //         $('.hover-box').on("mouseout",function(){
+ //            //  direction = $(this).entry({ e: event });
+ //             $(this).removeClass(classNames.join(" ")); // Remove existing animation classes.
+ //             $(this).addClass("out-" + direction); //Add mouse in animation
+ //         })
+ //
+ //     }
+ // );
 
 // $('.hover-box').hover(
 //     function (event) {

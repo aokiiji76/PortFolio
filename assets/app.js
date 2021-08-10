@@ -4,10 +4,15 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 //js
 //import $ from 'jquery';
-import './js/entry';
+//import './js/entry';
 import './js/portfolio.js';
 
-//js bootstrap
+// jquery
+const $ = require('jquery');
+ // create global $ and jQuery variables
+ global.$ = global.jQuery = $;
+
+ //js bootstrap
 import 'bootstrap';
 
 //font
