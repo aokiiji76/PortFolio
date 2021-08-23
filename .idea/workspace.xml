@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5d7fc772-9413-47ef-8296-7591a1bfd3ef" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/portfolio.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/portfolio.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/project/project.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/project/project.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,17 +173,17 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images/utils" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images/projets" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.zend.framework.tool" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wamp\www\PortFolio\assets\images\projets" />
       <recent name="D:\wamp\www\PortFolio\assets\images\utils" />
       <recent name="D:\wamp\www\PortFolio\assets\images\logo" />
       <recent name="D:\wamp\www\PortFolio\assets\pdf" />
-      <recent name="D:\wamp\www\PortFolio\assets\images\projets" />
       <recent name="D:\wamp\www\PortFolio\assets\styles" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -243,7 +240,8 @@
       <workItem from="1628167717444" duration="6723000" />
       <workItem from="1628254891425" duration="16219000" />
       <workItem from="1628512129576" duration="13714000" />
-      <workItem from="1628602131733" duration="1807000" />
+      <workItem from="1628602131733" duration="2749000" />
+      <workItem from="1629728071297" duration="1927000" />
     </task>
     <servers />
   </component>
